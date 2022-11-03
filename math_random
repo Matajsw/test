@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+<script>
+const min = 3;
+const  max = 7;
+function randomRange(min, max) {
+  return Math.floor(Math.random() * (max - min + 1) + min);
+}
+
+</script>
+</body>
+</html> 
